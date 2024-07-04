@@ -2,14 +2,14 @@ group 'com.aifeii.qrcode.tools'
 version '0.1.0'
 
 buildscript {
-    ext.kotlin_version = '1.5.2'
+    ext.kotlin_version = '1.7.10'
     repositories {
         google()
         jcenter()
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:4.1.2'
+        classpath 'com.android.tools.build:gradle:7.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
